@@ -1,0 +1,9 @@
+当前Burp爬虫的一个缺陷就是session的处理。它遇到简单的基于cookie的session时工作良好。但在其他时候会失败，包括大量使用csrf token的时候，需要按照指定顺序多步骤处理session的时候。你可以使用录制宏指令和设置稳定的session处理规则来避开这些缺陷，但这么做太繁杂而且容易产生错误。
+
+Burp的新爬虫能自动化处理session。因为它基于真人使用浏览器的方式来探测目标应用，它可以像浏览器一样自动的处理任何session机制。从此不再需要设置session处理规则来告诉Burp怎样获取session或者验证当前的session是否有效。
+
+新的爬虫使用多个“探针”并行工作。每个探针都工作与自己拥有的一个浏览器中。每个探针都有自己的cookie jar，当web应用需要的时候就会更新。当一个探针返回爬取入口重新开始工作时，它的cookie jar会被清空来模拟一个完整的浏览器session机制。
+
+新爬虫发起的请求是基于之前的响应动态构建的，所以在url或表单中的csrf tokens会被自动处理。这使得爬虫可以在复杂的session机制下正确的进入各种web应用，不需要用户手工设置任何东西：
+![](https://portswigger.net/cms/images/ec/68/b415a4926b90-article-crawling-5.png)
+
