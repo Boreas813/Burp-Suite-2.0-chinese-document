@@ -18,3 +18,8 @@ Burp Suite 2.0 测试版已经对专业人士开放。
 
 - 优化[系统资源管理](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/Improved%20management%20of%20system%20resources.md)，通过核心任务执行引擎。
 
+- 新的[配置库]()来存储配置信息。
+
+- 新的[REST API]()用来集成其他工具。
+
+- 新的[响应渲染器]()，它的功能和其他现代浏览器一样好。
