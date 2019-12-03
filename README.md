@@ -18,11 +18,11 @@ Burp Suite 2.0 测试版已经对专业人士开放。
 
 - 优化[系统资源管理](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/Improved%20management%20of%20system%20resources.md)，通过核心任务执行引擎。
 
-- 新的[配置库]()来存储配置信息。
+- 新的[配置库](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/The%20new%20configuration%20library.md)来存储配置信息。
 
-- 新的[REST API]()用来集成其他工具。
+- 新的[REST API](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/Burp's%20new%20REST%20API.md)用来集成其他工具。
 
-- 新的[响应渲染器]()，它的功能和其他现代浏览器一样好。
+- 新的[响应渲染器](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/New%20response%20renderer.md)，它的功能和其他现代浏览器一样好。
 
 ## 谨慎使用
 
@@ -52,5 +52,5 @@ Burp现有代码库的重要部分已经被完全重写或者大量修改，还�
 
 ## 后续使用说明
 
-[Burp2.0 爬虫和扫描器在哪里？]()
-[Burp2.0 扫描队列在哪？]()
+[Burp2.0 爬虫和扫描器在哪里？](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/Burp2.0%20Where%20are%20the%20Spider%20and%20Scanner.md)
+[Burp2.0 扫描队列在哪？](https://github.com/Boreas514/Burp-Suite-2.0-chinese-document/blob/master/Burp2.0%20Where%20is%20the%20scan%20queue.md)
